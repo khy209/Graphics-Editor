@@ -32,13 +32,8 @@ public class GMainFrame extends JFrame { // JFrame을 상속받아서 GMainFrame
 
         this.toolbar = new GToolBar(drawingPanel);
         this.add(toolbar, BorderLayout.NORTH);
-        this.drawingPanel.setToolbar(toolbar);// 툴바랑 연결
 
-//        this.toolbar = new GToolBar();
-//        this.add(toolbar, BorderLayout.NORTH);
-//        this.drawingPanel = new GDrawingPanel(); // 인스턴테이션
-//        this.add(drawingPanel);//
-//        this.add(drawingPanel, BorderLayout.CENTER);
+
 
 
 
